@@ -43,7 +43,8 @@ class TestUrbanRoutes:
 
     def test_order_2_ice_creams(self):
         # The loop is repeating the print function twice
-        for ice_cream in range(2):
+        number_ice_cream = 2
+        for ice_cream in range(number_ice_cream):
              # Add in S8
              print("function created for ice creams")
         pass
